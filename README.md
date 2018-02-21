@@ -4,11 +4,9 @@
 
 Overview
 --------
-Sample size for non-inferiority trial.
-It is designed to compute sample size in non-inferiority trial. 
-It also computes treatment allocation to control and treatment group.
-IRCT also computes the efficiency to a balanced randomization (1:1 allocation) 
-
+Sample size for non-inferiority trial(SSNI) computes sample size for non-inferiority trial with additive and multiplicative margin.
+It is designed to compute the sample size allocated for both treatment and control group. 
+The efficiency of optimal allocation compared to (1:1) equal allocation is reported.
 
 Installation
 ------------
