@@ -22,8 +22,8 @@
 
 
 
-multi.margin <- function(delta, varC, varT = NULL, muC,  alpha = 0.025, beta = 0.20){
-  stopifnot(delta > 1, alpha  > 0, beta > 0, varC > 0)
+multi.margin <- function(delta, muC, varC, varT = NULL,  alpha = 0.025, beta = 0.20){
+  stopifnot(delta > 1, alpha  > 0, beta > 0, varC > 0, is.numeric(muC))
   if(is.null(varT)){
     k <- 1 / (delta)
     varT <- varC
